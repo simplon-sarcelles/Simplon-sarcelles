@@ -27,7 +27,7 @@
 
 .header{
 	height:100vh;
-	min-width: auto;
+	min-width: inherit;
 	background-color: rgba(68, 153, 100, 0.31);
 }
 
@@ -102,7 +102,7 @@
 	100% { opacity:1; }
 }
 
-#presenter{
+.presenter {
 	color: #1CD8D2; /* fallback for old browsers */
 	color: -webkit-linear-gradient(to left, #1CD8D2 , #93EDC7); /* Chrome 10-25, Safari 5.1-6 */
 	color: linear-gradient(to left, #1CD8D2 , #93EDC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
@@ -200,7 +200,7 @@ span{
 				.overlay {
 					position: absolute;
 					text-align: center;
-					top: 0px;
+					top: 0;
 					left: 15px;
 					height: 310px;
 					border-radius: 5px;
