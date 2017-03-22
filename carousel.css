@@ -1,0 +1,11 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.temoignage{
+    background-color: #f2f2f2;
+}
+.paracaroussel {
+    text-align: justify;;
+}
