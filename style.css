@@ -174,11 +174,14 @@
 .programme span:hover{
   color: rgba(215, 93, 41, 0.5);
 }
-.frontback{
-  text-align: center;
-}
 /*PROGRAMME*/
 
+.frontback{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 /****** HEADER SIMPLONIENS ******/
 
@@ -400,7 +403,7 @@
     font-family: 'Poppins', sans-serif;
   }
   .titre h1{
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     color: #fff;
     font-family: 'Megrim', cursive;
@@ -410,44 +413,37 @@
     height: 40px;
     width: 40px;
   }
+  #presenter{
+    font-size: 25px;
+  }
   .groupe img{
     background-size: cover;
     height: 40vh;
   }
+
   .programme p{
     min-width: 215px;
   }
   .programme h2{
     text-align: center;
+    font-size: 25px;
   }
   .programme h4{
     text-align: center;
     width: 100%;
   }
-}
-
-  @media screen and (min-width: 1280px)
-  {
-    .header{
-      height:100vh;
-        min-width: auto;
-      background: rgb(30,87,153);
-      background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%, rgba(215, 114, 41, 0.5) 47%,rgba(119, 25, 163, 0.5) 75%, rgba(125, 185, 232, 0.5) 100%);
-      background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%,rgba(41, 137, 215, 0.5) 47%,rgba(119, 25, 163, 0.5) 75%, rgba(232, 157, 125, 0.5) 100%);
-      background: linear-gradient(135deg, rgba(30, 87, 153, 0.8) 0%,rgba(215, 93, 41, 0.5) 47%,rgba(119, 25, 163, 0.5) 75% ,rgba(125, 185, 232, 0.5) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
-      font-family: 'Poppins', sans-serif;
-    }
-    .video{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 94vh;
-      z-index: -3;
-      object-fit: cover;
-    }
+  .programme p{
+    text-align: center;
+    line-height: 30px;
+    margin: 15px 0 10px 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
   }
+  .head-simplonniens h2{
+    font-size: 25px;
+  }
+
+}
 
   @media screen and (min-width: 2560px){
     /* TITRE HEADER FILTRE VERT */
@@ -483,6 +479,66 @@
     .head-formation h2{
       text-align: center;
       font-size: 50px;
+    }
+    .head-formation p{
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+    }
+    .programme h2{
+      text-align: center;
+      font-size: 50px;
+    }
+    .programme h4{
+      text-align: center;
+      width: 100%;
+      font-size: 30px;
+    }
+    .programme p{
+      text-align: center;
+      line-height: 60px;
+      width: 750px;
+      margin: 15px 0 10px 0;
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .head-simplonniens h2{
+      font-size: 50px;
+    }
+    .head-simplonniens p{
+      font-size: 30px;
+    }
+    #debouche{
+      font-size: 30px;
+    }
+    .icons-debouche p{
+      font-size: 30px;
+    }
+    .titre_projet_realises a{
+      font-size: 50px;
+    }
+    .titrelivre h2{
+      font-size: 50px;
+    }
+      .photos h4{
+        font-size: 40px;
+      }
+    .photos p{
+      font-size: 25px;
+    }
+    .FAQHEAD h2{
+      font-size: 50px;
+    }
+    .FAQHEAD h4{
+      font-size: 30px;
+    }
+    .FAQHEAD p{
+      font-size: 25px;
+    }
+    .copyright p{
+      font-size: 30px;
+    }
+    .navbar-nav li{
+      font-size: 30px;
     }
   }
   /* MEDIA QUERIES*/
