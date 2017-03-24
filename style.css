@@ -206,10 +206,6 @@
   height: 80vh;
   transition-duration: 0.1s;
 }
-.groupe img:hover{
-  box-shadow: 2px 5px 45px #3D3D3D;
-  transition-duration: 0.1s;
-}
 
 #debouche{
   text-align: center;
@@ -279,11 +275,6 @@
 
 
 /*PROJETS*/
-.fond {
-  background-image: url(images/computer.jpg);
-  background-size: cover;
-  height: auto;
-}
 
 .degrade{
   background: -webkit-linear-gradient(to left, rgba(57, 143, 242, 1) 47% , rgba(18, 173, 108, 0.8));
@@ -364,9 +355,23 @@
 .photos h4, p{
   text-align: center;
 }
+.photos h4{
+  color: rgba(119, 25, 163, 0.5);
+
+}
 .photos img{
-  height: 350px;
+  height: 190px;
   background-size: cover;
+}
+#fonction{
+  width: 300px;
+  color: rgba(215, 93, 41, 0.5);
+}
+#parasoc{
+  width: 300px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #787878;
 }
 
 /*TEMOIGNAGE*/
