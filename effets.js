@@ -3,11 +3,6 @@ $( document ).ready(function() {
     $('.infos1').stop().fadeIn('fade-infos');
     $('.icons1').mouseout(function(){
       $('.infos1').stop().fadeOut('fade-infos');
-      $('body').load(function(){
-        if ( $(this).height() > 500) {
-          $(this).addClass('min-icons');
-        }
-      });
     });
   });
 

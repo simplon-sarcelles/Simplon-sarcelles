@@ -335,6 +335,7 @@
 
 .groupe img {
     background-size: cover;
+    cursor: zoom-in;
     height: 80vh;
     transition-duration: 0.1s;
 }
@@ -343,6 +344,9 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+}
+#plus{
+    color: #ccc;
 }
 
 .hommesfemmes {
@@ -797,3 +801,4 @@ p {
 
 
 /* MEDIA QUERIES*/
+
