@@ -43,7 +43,7 @@
     background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%, rgba(215, 114, 41, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(125, 185, 232, 0.5) 100%);
     background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%, rgba(41, 137, 215, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(232, 157, 125, 0.5) 100%);
     background: linear-gradient(135deg, rgba(30, 87, 153, 0.8) 0%, rgba(215, 93, 41, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(125, 185, 232, 0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -94,12 +94,20 @@
 
 /* ONGLET SIMPLONNIENS MENU */
 
-#apprenants {
-    color: rgba(57, 143, 242, 1);
+.navbar {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
-#apprenants:hover {
-    color: rgba(101, 170, 250, 1);
+.navbar-inverse .navbar-nav>li>a {
+    color: #ccc;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -160,23 +168,25 @@
 
 /****** HEADER FORMA-SIMPLON ******/
 
-.head-presentation {
-    margin: 50px 0 0 0;
-}
-
-.presentation h2 {
+.presentation {
     color: rgba(101, 170, 250, 1);
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentation h4 {
-    text-align: center;
     line-height: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 .presentation p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    line-height: 35px;
+    color: black;
 }
 
 .textfondateur {
@@ -345,7 +355,8 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
-#plus{
+
+#plus {
     color: #ccc;
 }
 
@@ -402,8 +413,9 @@
     justify-content: center;
     color: #333333;
 }
-.icons-debouche i:hover{
-    color: rgba(101, 170, 250, 1);    
+
+.icons-debouche i:hover {
+    color: rgba(101, 170, 250, 1);
 }
 
 .icons-debouche a:hover {
@@ -535,7 +547,8 @@
 .overlay:hover {
     opacity: 0.8;
 }
-.images-hover img{
+
+.images-hover img {
     position: absolute;
     z-index: 100;
     height: 400px;
@@ -663,7 +676,7 @@ p {
         background: -moz-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%, rgba(215, 114, 41, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(125, 185, 232, 0.5) 100%);
         background: -webkit-linear-gradient(-45deg, rgba(30, 87, 153, 0.8) 0%, rgba(41, 137, 215, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(232, 157, 125, 0.5) 100%);
         background: linear-gradient(135deg, rgba(30, 87, 153, 0.8) 0%, rgba(215, 93, 41, 0.5) 47%, rgba(119, 25, 163, 0.5) 75%, rgba(125, 185, 232, 0.5) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=1);
         font-family: 'Poppins', sans-serif;
     }
     .titre h1 {
@@ -801,4 +814,3 @@ p {
 
 
 /* MEDIA QUERIES*/
-
