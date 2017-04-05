@@ -93,6 +93,9 @@
     background-color: transparent;
     border-color: transparent;
 }
+#myNavbar a{
+    background-color: transparent;
+}
 .navbar-inverse .navbar-nav>li>a {
     color: #ccc;
 }
