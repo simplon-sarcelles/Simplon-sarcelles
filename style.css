@@ -518,23 +518,14 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 318px;
+    width: 200px;
+    text-align: center;
+    left: 125px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-.overlay {
-    position: absolute;
-    text-align: center;
-    top: 0px;
-    left: 15px;
-    height: 310px;
-    border-radius: 5px;
-    width: 230px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-}
+
 .titre_projet_realises {
     text-align: center;
 }
@@ -707,7 +698,7 @@ p {
         text-align: center;
         line-height: 60px;
         width: 750px;
-        margin: 15px 0 10px 0;
+        margin: 10px 0 10px 0;
         font-size: 30px;
         font-family: 'Poppins', sans-serif;
     }
@@ -728,6 +719,8 @@ p {
     }
     .titrelivre h2 {
         font-size: 50px;
+                text-align: center;
+
     }
     .photos h4 {
         font-size: 40px;
