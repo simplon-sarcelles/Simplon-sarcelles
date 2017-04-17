@@ -115,6 +115,17 @@
     transform: translateY(-20px);
 }
 
+#nav-toggle{
+    border: 1px solid transparent;
+    margin: 25px 0 0 0;
+}
+#nav-toggle:hover{
+    background-color: transparent;
+}
+
+
+
+ 
 /* ONGLET SIMPLONNIENS MENU */
 
 
@@ -518,13 +529,21 @@
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 318px;
+    top: 310px;
     width: 200px;
     text-align: center;
     left: 125px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    opacity: 0;
 }
+
+.text-avance{
+    top: 330px;
+    transition-duration: 0.1s;
+    opacity: 1;
+}
+
 
 .titre_projet_realises {
     text-align: center;
